@@ -1,2 +1,2 @@
 # nodejs-api
-my first api with nodejs
+🚀 My api with Node.js & Express
