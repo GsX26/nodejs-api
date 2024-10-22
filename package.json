@@ -11,9 +11,11 @@
   "license": "ISC",
   "description": "my first api with nodejs",
   "dependencies": {
-    "express": "^4.19.2",
-    "firebase": "^10.12.4",
-    "firebase-admin": "^12.3.0"
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.6.0"
   },
   "repository": {
     "type": "git",
