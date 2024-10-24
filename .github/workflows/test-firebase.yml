@@ -1,0 +1,29 @@
+name: Test Firebase Secret
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14' # O la versión que necesites
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Run Firebase script
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_BOOK_10924 }}
+        run: |
+          echo "Running Firebase script"
+          node your_script.js
