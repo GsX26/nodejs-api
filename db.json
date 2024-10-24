@@ -1,0 +1,82 @@
+{
+    "books": [
+        {
+            "id": 1,
+            "title": "Full-Stack JavaScript Development",
+            "author": "Eric Bush",
+            "year": 2015
+        },
+        {
+            "id": 2,
+            "title": "ASP.NET Core 5 and Angular",
+            "author": "Valerio De Sanctis",
+            "year": 2021
+        },
+        {
+            "id": 3,
+            "title": "Meteor: Full-Stack Web Application Development",
+            "author": "Fabian Vogelsteller",
+            "year": 2012
+        },
+        {
+            "id": 4,
+            "title": "HTML5",
+            "author": "Arkaitz Garro.",
+            "year": 2014
+        },
+        {
+            "id": 5,
+            "title": "Java a fondo ",
+            "author": "Pablo Sznajdleder",
+            "year": 2017
+        },
+        {
+            "id": 6,
+            "title": "Curso completo de HTML",
+            "author": "Jorge Ferrer",
+            "year": 2012
+        },
+        {
+            "id": 7,
+            "title": "Manual del lenguaje de marcación de HTML5",
+            "author": "Miguel Ángel Álvarez, Dairo Galeano y Jaime Peña Tresancos",
+            "year": 2015
+        },
+        {
+            "id": 8,
+            "title": "Diseño web",
+            "author": "Sebastián Luis Thüer",
+            "year": 2018
+        },
+        {
+            "id": 9,
+            "title": "Eloquent JavaScript",
+            "author": "Marijn Haverbeke",
+            "year": 2018
+        },
+        {
+            "id": 10,
+            "title": "Desarrollo de aplicaciones web",
+            "author": "Carles Mateu",
+            "year": 2019
+        },
+        {
+            "id": 11,
+            "title": "JavaScript: las partes buenas",
+            "author": "Douglas Crockford",
+            "year": 2022
+        },
+        {
+            "id": 12,
+            "title": "JavaScript: las partes buenas",
+            "author": "Douglas Crockford",
+            "year": 2022
+        },
+        {
+            "id": 13,
+            "title": "JavaScript: las partes buenas",
+            "author": "Douglas Crockford",
+            "year": 1999
+        }
+    ]
+}

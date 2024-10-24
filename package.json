@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-api",
+  "version": "1.0.0",
+  "main": "Ejercicio node.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Gonzalo",
+  "license": "ISC",
+  "description": "my first api with nodejs",
+  "dependencies": {
+    "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "firebase": "^10.14.1",
+    "firebase-admin": "^12.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "nodejs-api"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
