@@ -4,14 +4,16 @@
   "main": "Ejercicio node.js",
   "type": "module",
   "scripts": {
+    "lint": "eslint .",
     "start": "node index.js"
-  },
+},
   "keywords": [],
   "author": "Gonzalo",
   "license": "ISC",
   "description": "my first api with nodejs",
   "dependencies": {
     "@firebasegen/default-connector": "file:dataconnect-generated/js/default-connector",
+    "@firebasegen/remote--types": "file:dataconnect-generated/js/default-connector",
     "cors": "^2.8.5",
     "express": "^4.21.1",
     "firebase": "^10.14.1",
@@ -22,6 +24,9 @@
     "url": "nodejs-api"
   },
   "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "eslint": "^9.13.0",
+    "globals": "^15.11.0",
     "nodemon": "^3.1.4"
   }
 }
